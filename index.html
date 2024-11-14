@@ -6,56 +6,78 @@
       <meta name="msvalidate.01" content="BFC9A35E299ACB9282DE4D44F2ED327A" />
       <title>Atharv Tathe</title>
       <style>
+         /* Center the entire body content */
+         body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+         }
+
+         /* Wrapper to stack elements vertically */
+         .content-wrapper {
+            text-align: center;
+         }
+
+         /* Style for the main heading */
          h1 {
             font-size: 24px;
             margin-bottom: 10px;
          }
+
+         /* Styling for social media links */
          .social-links {
             display: flex;
-            gap: 10px;
+            justify-content: center;
+            gap: 10px; /* Adds horizontal spacing */
             margin-top: 10px;
          }
+
          .social-links a {
             text-decoration: none;
-            color: inherit;
-            font-size: 24px;
+            color: inherit; /* Inherits the color from parent styles */
+            font-size: 24px; /* Increases icon size */
          }
+
+         /* Style for the links section */
          .link-list {
             margin-top: 20px;
          }
 
          .link-list a {
-            display: block;
-            margin-bottom: 5px;
-            color: #0000EE;
-            text-decoration: underline;
+            display: block; /* Ensures each link is on a new line */
+            margin-bottom: 5px; /* Adds spacing between links */
+            color: #0000EE; /* Link color */
+            text-decoration: underline; /* Underlines the links */
          }
       </style>
    </head>
    <body>
-      <div>
+      <div class="content-wrapper">
          <h1>I’m Atharv Tathe. I’m a Full Stack Developer.</h1>
          <p>My social media links:</p>
-      </div>
-      
-      <div class="social-links">
-         <a href="https://www.instagram.com/atharv.tathe/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-         <a href="https://www.linkedin.com/in/atharvtathe/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-         <a href="https://github.com/atharvtathe"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-         <a href="https://twitter.com/TatheAtharv"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-         <a href="https://atharvtathe.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
-      </div>
+         
+         <div class="social-links">
+            <a href="https://www.instagram.com/atharv.tathe/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/atharvtathe/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/atharvtathe"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/TatheAtharv"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://atharvtathe.com/"><i class="fa fa-link" aria-hidden="true"></i></a>
+         </div>
 
-      <div class="link-list">
-         <a href="https://www.bargraphmaker.net/">Bar Graph Maker</a>
-         <a href="https://www.randomlettergenerator.in/">Random Letter Generator</a>
-         <a href="https://www.jobdescriptiongenerator.com/">Job Description Generator</a>
-         <a href="https://www.lovelettergenerator.co/">Love Letter Generator</a>
-         <a href="https://quartilecalculator.net/">Quartile Calculator</a>
-         <a href="https://www.vbacodegenerator.com/">VBA Code Generator</a>
-         <a href="https://midpointcalculator.co/">Midpoint Calculator</a>
-         <a href="https://boilermakerjobs.co/">Boilermaker Jobs</a>
-         <a href="https://tip-calculator.co/">Tip Calculator</a>
+         <div class="link-list">
+            <a href="https://www.bargraphmaker.net/">Bar Graph Maker</a>
+            <a href="https://www.randomlettergenerator.in/">Random Letter Generator</a>
+            <a href="https://www.jobdescriptiongenerator.com/">Job Description Generator</a>
+            <a href="https://www.lovelettergenerator.co/">Love Letter Generator</a>
+            <a href="https://quartilecalculator.net/">Quartile Calculator</a>
+            <a href="https://www.vbacodegenerator.com/">VBA Code Generator</a>
+            <a href="https://midpointcalculator.co/">Midpoint Calculator</a>
+            <a href="https://boilermakerjobs.co/">Boilermaker Jobs</a>
+            <a href="https://tip-calculator.co/">Tip Calculator</a>
+         </div>
       </div>
 
       <script src="https://use.fontawesome.com/7bd3ab7115.js"></script>
